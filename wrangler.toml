@@ -1,0 +1,8 @@
+name = "tele-kopai"
+compatibility_date = "2026-06-01"
+pages_build_output_dir = "public"
+
+# Секреты сюда НЕ писать.
+# OPENROUTER_API_KEY и BOT_TOKEN добавляются через Cloudflare Dashboard или командой:
+# npx wrangler pages secret put OPENROUTER_API_KEY --project-name tele-kopai
+# npx wrangler pages secret put BOT_TOKEN --project-name tele-kopai

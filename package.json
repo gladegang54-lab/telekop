@@ -1,0 +1,13 @@
+{
+  "name": "tele-kopai-cloudflare",
+  "version": "6.0.0",
+  "description": "Tele-Копай! Telegram Mini App на Cloudflare Pages Functions",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler pages dev public --compatibility-date=2026-06-01",
+    "deploy": "wrangler pages deploy public --project-name=tele-kopai"
+  },
+  "devDependencies": {
+    "wrangler": "latest"
+  }
+}
